@@ -1,5 +1,6 @@
 import React from 'react';
 import Produto from '../Produtos'; // Importa o componente Produto
+import './style.css'; // Importa o arquivo de estilos
 
 const ListaProdutos = ({ produtos }) => ( // Recebe a lista de produtos como parâmetro
   <div className="lista-produtos">
