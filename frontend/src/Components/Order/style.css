@@ -1,0 +1,23 @@
+/* Defina o estilo do carrinho de compras */
+.carrinho-compras {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 50px; /* Ajuste o tamanho conforme necessário */
+    height: 50px;
+    background-color: #f8f9fa; /* Cor de fundo do carrinho */
+    border: 2px solid #ccc; /* Borda do carrinho */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Garanta que o carrinho fique acima de outros elementos */
+}
+
+/* Ícone do carrinho (opcional) */
+.carrinho-compras i {
+    font-size: 24px; /* Tamanho do ícone */
+    color: #333; /* Cor do ícone */
+}
+/* By TaldoZx */
